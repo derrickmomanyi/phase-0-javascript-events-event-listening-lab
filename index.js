@@ -1,6 +1,4 @@
-function addingEventListener() {
-    button.addEventListener('click', (e)=>{
-        console.log(e.target.id)
-      })
-
+function addingEventListener(){
+  document.getElementById('button').addEventListener('click', () => alert("I was clicked"))
 }
+console.log(addingEventListener())
